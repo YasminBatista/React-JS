@@ -1,5 +1,5 @@
 import React from "react";
-import { FcReuse } from "react-icons/fc";
+import Group from "assets/img/Group.png";
 import * as S from "./styles";
 import { Link } from "react-router-dom";
 
@@ -7,9 +7,7 @@ const Menu = () => {
   return (
     <S.Cabecalho>
       <picture>
-        <Link to="/">
-          <FcReuse />
-        </Link>
+           <img src={Group} alt="Imagens principais" />
       </picture>
       <nav>
         <ul>

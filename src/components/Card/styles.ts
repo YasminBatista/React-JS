@@ -3,18 +3,18 @@ import { colors } from "styles/GlobalStyle"
 
 export const Card = styled.div`
   div {
-    background-color: ${colors.thirdLight};
+    background-color: ${colors.secondary};
     border-radius: 0.5rem;
     padding: 0.4rem;
     h3, h4 {
-      margin-bottom: 0.5rem;
+      margin-bottom: 3rem;
     }
     div {
       display: flex;
       span {
         background-color: ${colors.third};
-        border-radius: 0.5rem;
-        padding: 0.4rem;
+        border-radius: 0.8rem;
+        padding: 1rem;
         margin: 0 0.4rem 0 0;
       }
     }

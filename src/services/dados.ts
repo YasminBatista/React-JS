@@ -1,137 +1,74 @@
 const dados = [
   {
     id: 1,
-    nome: "Lázaro",
-    data: "27/04/2022 10:08:00",
-    titulo: "Blusa",
-    mensagem: "Tenho uma blusa para doar, alguém interessa?",
+    nome: "Clara",
+    data: "27/04/2022 ",
+    titulo: "Wonder",
+    mensagem: "História maravilhosa!!! Recomendo muitoo",
     topico: [{
       id: 1,
-      item: "Reutilizar"
+      item: "curtir"
     }, {
       id: 2,
-      item: "Reciclar"
+      item: "comentar"
+    }, {
+      id: 3,
+      item: "não gostei"
     }]
   },
   {
     id: 2,
-    nome: "Luan",
-    data: "28/04/2022 10:08:00",
-    titulo: "Calça",
-    mensagem: "Tenho uma calça para doar, alguém interessa?",
+    nome: "Pedro",
+    data: "28/04/2022 ",
+    titulo: "Anne Frank",
+    mensagem: "Emocionante,chorei muito",
     topico: [{
       id: 1,
-      item: "Reutilizar"
+      item: "curtir"
     }, {
       id: 2,
-      item: "Reciclar"
+      item: "comentar"
     }, {
       id: 3,
-      item: "Doar"
+      item: "não gostei"
     }]
   },
   {
     id: 3,
-    nome: "Luana",
-    data: "28/04/2022 10:08:00",
-    titulo: "Calça",
-    mensagem: "Tenho uma calça para doar, alguém interessa?",
+    nome: "Ana",
+    data: "28/04/2022 ",
+    titulo: "Dom Quixote",
+    mensagem: "Clássico,muito bem escrito",
     topico: [{
       id: 1,
-      item: "Reutilizar"
+      item: "curtir"
     }, {
       id: 2,
-      item: "Reciclar"
+      item: "comentar"
     }, {
       id: 3,
-      item: "Doar"
+      item: "não gostei"
     }]
   },
   {
     id: 4,
     nome: "Maria",
-    data: "28/04/2022 10:08:00",
-    titulo: "Calça",
-    mensagem: "Tenho uma calça para doar, alguém interessa?",
+    data: "28/04/2022 ",
+    titulo: "Pessoas Normais",
+    mensagem: "Um bom Livro",
     topico: [{
       id: 1,
-      item: "Reutilizar"
+      item: "curtir"
     }, {
       id: 2,
-      item: "Reciclar"
+      item: "comentar"
     }, {
       id: 3,
-      item: "Doar"
+      item: "não gostei"
     }]
   },
-  {
-    id: 5,
-    nome: "João",
-    data: "28/04/2022 10:08:00",
-    titulo: "Calça",
-    mensagem: "Tenho uma calça para doar, alguém interessa?",
-    topico: [{
-      id: 1,
-      item: "Reutilizar"
-    }, {
-      id: 2,
-      item: "Reciclar"
-    }, {
-      id: 3,
-      item: "Doar"
-    }]
-  },
-  {
-    id: 6,
-    nome: "Kauã",
-    data: "28/04/2022 10:08:00",
-    titulo: "Calça",
-    mensagem: "Tenho uma calça para doar, alguém interessa?",
-    topico: [{
-      id: 1,
-      item: "Reutilizar"
-    }, {
-      id: 2,
-      item: "Reciclar"
-    }, {
-      id: 3,
-      item: "Doar"
-    }]
-  },
-  {
-    id: 7,
-    nome: "José",
-    data: "28/04/2022 10:08:00",
-    titulo: "Calça",
-    mensagem: "Tenho uma calça para doar, alguém interessa?",
-    topico: [{
-      id: 1,
-      item: "Reutilizar"
-    }, {
-      id: 2,
-      item: "Reciclar"
-    }, {
-      id: 3,
-      item: "Doar"
-    }]
-  },
-  {
-    id: 8,
-    nome: "Roberto",
-    data: "28/04/2022 10:08:00",
-    titulo: "Calça",
-    mensagem: "Tenho uma calça para doar, alguém interessa?",
-    topico: [{
-      id: 1,
-      item: "Reutilizar"
-    }, {
-      id: 2,
-      item: "Reciclar"
-    }, {
-      id: 3,
-      item: "Doar"
-    }]
-  },
+  
+  
 ]
 
 export default dados

@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Home = styled.section`
   picture > img {
-    width: 100%;
+    width: 60%;
   }
   aside {
     display: grid;
