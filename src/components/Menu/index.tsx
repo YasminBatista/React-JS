@@ -4,6 +4,11 @@ import * as S from "./styles";
 import { Link } from "react-router-dom";
 
 const Menu = () => {
+  const navigate = useNavigate();
+   async function logout() {
+    await signOut()
+    navigate('/login')
+  }
   return (
     <S.Cabecalho>
       <picture>
