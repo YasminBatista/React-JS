@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 import 'react-toastify/dist/ReactToastify.css';
+import 'react-confirm-alert/src/react-confirm-alert.css';
 export default createGlobalStyle`
   * {
     margin: 0;
@@ -10,6 +11,7 @@ export default createGlobalStyle`
   }
 `
 export const colors = {
+  primary: "487552",
   secondary: "#487552",
   third: "#77d692",
   thirdLight: "#Caf49f",

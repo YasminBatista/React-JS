@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { ButtonComponent } from "components";
 import * as S from "./styles";
 import { apiMessage } from "services/data";
